@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         // custom parameters that needed to be passed back in postback url
         params.put(AppziloVideo.SUB_ID, "1234567");
         params.put(AppziloVideo.SUB_ID2, "abcdefg");
+
         AppziloVideo.initApp(MainActivity.this
                 , APP_KEY
                 , MEMBER_ID
