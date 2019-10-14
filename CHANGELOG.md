@@ -1,3 +1,12 @@
+## Version 1.3.3
+- support video listener
+
+## Version 1.3.2
+- support fully webview embed video
+
+## Version 1.3.1
+- fix bugs and crashes
+
 ## Version 1.3.0
 - Implement new ui when count down
 - support double videos in embed video
