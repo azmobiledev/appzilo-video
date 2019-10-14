@@ -39,6 +39,7 @@ AppziloVideo.show();
 
 Video Listener
 
+```
 AppziloVideo.setVideoListener(new AppziloVideo.AzRewardedVideoListener() {
 	@Override
 	public void onRewardedVideoAvailable() {
@@ -51,6 +52,7 @@ AppziloVideo.setVideoListener(new AppziloVideo.AzRewardedVideoListener() {
 		//show when no video
 	}
 });
+```
 
 ## Permissions
 
