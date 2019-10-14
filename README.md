@@ -37,6 +37,21 @@ AppziloVideo.initApp(this, "APP_KEY", "UNIQUE_USER_ID", params);
 AppziloVideo.show();
 ```
 
+Video Listener
+
+AppziloVideo.setVideoListener(new AppziloVideo.AzRewardedVideoListener() {
+	@Override
+	public void onRewardedVideoAvailable() {
+		//show when video is available
+		//AppziloVideo.show();
+	}
+
+	@Override
+	public void onRewardedVideoNotAvailable(String error) {
+		//show when no video
+	}
+});
+
 ## Permissions
 
 We include the [INTERNET](http://developer.android.com/reference/android/Manifest.permission.html#INTERNET) and [ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE) permissions by default as we need it to make network requests and check if the network is available:
